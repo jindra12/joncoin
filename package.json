@@ -1,0 +1,27 @@
+{
+  "name": "joncoin-dev",
+  "version": "1.0.0",
+  "description": "Decentralized cryptocurrency implementation with proof-of-cert",
+  "main": "./dist/index.js",
+  "repository": "https://github.com/jindra12/joncoin.git",
+  "author": "jindra12.underdark <jindra12.underdark@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "rm ./dist/*.js ./dist/*.d.ts; yarn tsc",
+    "test": "yarn jest --watch"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "@types/jquery": "^3.5.29",
+    "@types/jsdom": "^21.1.6",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "tslint": "^6.1.2",
+    "typescript": "^5.3.3",
+    "v8-profiler-next": "^1.10.0"
+  },
+  "dependencies": {
+    "mongodb": "^6.3.0"
+  }
+}

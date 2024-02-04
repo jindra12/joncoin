@@ -1,0 +1,12 @@
+{
+    "name": "joncoin-dev",
+    "version": "1.0.0",
+    "description": "Decentralized cryptocurrency implementation with proof-of-cert",
+    "main": "./dist/index.js",
+    "repository": "https://github.com/jindra12/joncoin.git",
+    "author": "jindra12.underdark <jindra12.underdark@gmail.com>",
+    "license": "MIT",
+    "private": false,
+    "devDependencies": {}
+}
+  
